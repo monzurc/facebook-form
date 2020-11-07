@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background: #3B5998;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    width: 20%;
+}
+label{
+    color: #ffffff;
+    font-size: 14px;
+}
+.logo img{
+    width: 100%;
+}
+.login{
+    width: 60%;
+
+}
+form{
+    padding-left: 55px;
+
+}
+.form-group{
+    display: inline-block;
+    width: 200px;
+
+}
+input{
+    height: 25px;
+    margin: 10px 0;
+
+}
+input[type="button"]{
+    cursor: pointer;
+    background: #1C418B;
+    border: none;
+    border: 1px solid black;
+    padding: 5px;
+    box-shadow: 0px 0px 1px 0px;
+    color: #ffffff;
+   
+}
+input[type="button"]:hover{
+    background-color: #3B5998;
+
+
+}
+.main-body{
+    display: flex;
+    background: #e9ebee;
+    padding: 50px;
+
+}
+.recent{
+    width: 50%;
+
+}
+.sign-up{
+    width: 50%;
+
+}
+.form{
+
+}
+.form form{
+    padding: 0px;
+
+}
+.form form input{
+    border: none;
+    border: 1px solid #BAB9BB;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.form h1{
+    font-size: 40px;
+
+}
+.form p{
+    font-size: 18px;
+
+}
+form{
+
+}
+input[type="text"]{
+
+    margin-right: 15px;
+
+}
+.form form input[type="email"]{
+    width: 370px;
+    
+}
+.form form input[type="password"]{
+    width: 370px;
+    
+}
+.form form label{
+    color: gray;
+    display:block
+    
+}
+input[type="date"]{
+    
+}
+input[type="radio"]{
+    margin: 0;
+    vertical-align: middle;
+    
+}
+input[type="radio"]:first-child{
+
+}
+ 
+input[type="submit"]{
+    background: #47713F;
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    
+}
+input::placeholder{
+    font-size: 18px;
+    color: #A69999;
+
+}
